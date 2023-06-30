@@ -1,0 +1,46 @@
+.headingTitle {
+  background: linear-gradient(45deg, rgb(29, 0, 199), rgb(116, 0, 188));
+  width: 50%;
+}
+
+.headingPrice {
+  background: linear-gradient(45deg, rgb(152, 0, 184), rgb(178, 0, 181));
+  width: 50%;
+
+}
+
+.table th {
+  color: white;
+}
+
+.table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+}
+
+.table td {
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.table td:first-child {
+  border-right: 1px solid rgb(229, 229, 229);
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+/* .headingWrapper {
+  display: flex;
+  color: white;
+  font-weight: bold;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  overflow: hidden;
+} */
